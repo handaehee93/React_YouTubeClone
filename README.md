@@ -1,3 +1,8 @@
+# 드림코딩 유튜브 채널을 참고하여 작업한 Clone 코딩 입니다
+
+#헤더
+## SearchCompnet
+유튜브에 헤더 부분을 구현하기 위해 SearchComponet를 만들었습니다.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
