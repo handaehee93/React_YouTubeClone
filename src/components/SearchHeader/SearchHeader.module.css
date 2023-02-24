@@ -1,0 +1,44 @@
+
+.searchheader {
+  border-bottom: 1px solid white;
+  display: flex;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  font-size: large;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: large;
+}
+.logo .icon {
+  font-size:xx-large;
+  color: var(--red);
+}
+
+.logo > h1 {
+  font-weight: 900;
+  margin-left: 1rem;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form input {
+  width: 80%;
+  height: 30%;
+  outline: none;
+}
+
+.form button {
+  height: 35%;
+}
+
+
