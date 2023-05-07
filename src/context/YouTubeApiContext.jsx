@@ -10,9 +10,11 @@ const client = new YoutubeClient()
 const youtube = new Youtube(client) 
 
 export function YouTubeApiProvider({ children }) {
-  return <YouTubeApiContext.Provider value={{youtube}}>
-    {children}
-  </YouTubeApiContext.Provider>
+  return( 
+    <YouTubeApiContext.Provider value={{youtube}}>
+      {children}
+    </YouTubeApiContext.Provider>
+  )
 }
 
 export function useYoutubeApi() {
