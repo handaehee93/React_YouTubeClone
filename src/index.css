@@ -5,7 +5,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  /* 일반 css파일에서 @apply를 사용하면 tailwind문법을 그대로 사용할 수 있다. */
+  /* 일반 css파일에서 @apply를 사용하면 tailwind문법을 그대로 사용할 수 있다.    */
   @apply flex flex-col items-center;
   @apply bg-zinc-900 text-gray-50;
 }
