@@ -9,6 +9,7 @@ export default function VideoDetail() {
   return (
     <section className='flex flex-col lg:flex-row'>
       <article className='basis-4/6'>
+        {/* ifram src 주소 https로 변경 */}
         <iframe 
           id="player" 
           type="text/html" 

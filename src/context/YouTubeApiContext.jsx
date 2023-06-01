@@ -5,8 +5,8 @@ import testYoutubeClient from '../api/testYoutubeClient';
 
 export const YouTubeApiContext = createContext()
 
-// const client = new testYoutubeClient()
-const client = new YoutubeClient()
+const client = new testYoutubeClient()
+// const client = new YoutubeClient()
 const youtube = new Youtube(client) 
 
 export function YouTubeApiProvider({ children }) {
